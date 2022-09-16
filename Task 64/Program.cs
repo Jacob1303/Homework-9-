@@ -4,7 +4,7 @@ using System;
 
 class Programm
 {
-    static void PrintNumb (int m, int n)
+    static void PrintNumb(int m, int n)
     {
         for (int i = m; i < n; i++)
         {
@@ -20,7 +20,6 @@ class Programm
         int m = Convert.ToInt32(Console.ReadLine());
         Console.Write("n = ");
         int n = Convert.ToInt32(Console.ReadLine());
-        PrintNumb(m,n);
-
+        PrintNumb(m, n);
     }
 }
